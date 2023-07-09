@@ -35,7 +35,6 @@ export const Profile = ({
   );
 };
 
-
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,

@@ -9,6 +9,9 @@ import { Statistics } from './Statistics/Statistics';
 import friends from '../configs/friends';
 import { FriendList } from './FriendList/FriendList';
 
+import transactions from '../configs/transactions';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+
 export const App = () => {
   return (
     <Container>
@@ -22,6 +25,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />;
     </Container>
   );
 };
