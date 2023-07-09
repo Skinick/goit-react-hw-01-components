@@ -5,11 +5,10 @@
   box-shadow: -1px 1px 34px 4px rgba(171, 178, 185, 1);
   border-radius: 10px;
   background-color: #fdfefe;
-  /* color: #fff; */
 }
 
 .title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -35,7 +34,7 @@
 
 .label {
   margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #d4d6d7;
 }

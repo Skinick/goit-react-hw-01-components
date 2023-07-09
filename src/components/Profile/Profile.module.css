@@ -13,6 +13,7 @@
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  background-color: #0eb6e9;
 }
 
 .avatar {
@@ -30,12 +31,18 @@
   color: #273746;
 }
 
-.tag,
+.tag {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e21c2c;
+}
+
 .location {
   margin-top: 10px;
   font-size: 16px;
   font-weight: 500;
-  color: #abb2b9;
+  color: #d6dc10;
 }
 
 p {
@@ -47,7 +54,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   height: 80px;
   border-top: 2px solid rgb(213, 216, 220);
-  background-color: #eaecee;
+  background-color: #76a0ca;
   margin: 0;
   padding: 0;
   border-bottom-left-radius: 10px;
@@ -67,7 +74,7 @@ p {
 }
 
 .label {
-  color: #abb2b9;
+  color: #f2fa04;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -76,5 +83,5 @@ p {
 .quantity {
   font-size: 16px;
   font-weight: 700;
-  color: #273746;
+  color: hsl(200, 17%, 93%);
 }
